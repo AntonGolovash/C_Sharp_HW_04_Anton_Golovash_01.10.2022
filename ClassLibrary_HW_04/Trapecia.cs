@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ClassLibrary_HW_04
 {
-    internal class Trapecia : GeometricheskayaFigura
+    public class Trapecia : GeometricheskayaFigura
     {
         public Trapecia()
         {

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ClassLibrary_HW_04
 {
-    internal class Ellips : GeometricheskayaFigura
+    public class Ellips : GeometricheskayaFigura
     {
         public Ellips()
         {

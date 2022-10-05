@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ClassLibrary_HW_04
 {
-    internal class Priamougolnik : GeometricheskayaFigura
+    public class Priamougolnik : GeometricheskayaFigura
     {
         readonly double storona1;
         readonly double storona2;

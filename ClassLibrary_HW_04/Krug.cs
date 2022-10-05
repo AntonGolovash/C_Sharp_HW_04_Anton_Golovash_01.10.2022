@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ClassLibrary_HW_04
 {
-    internal class Krug : GeometricheskayaFigura
+    public class Krug : GeometricheskayaFigura
     {
         int radius;
         public Krug(int radius)

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ClassLibrary_HW_04
 {
-    internal class Romb : GeometricheskayaFigura
+    public class Romb : GeometricheskayaFigura
     {
         readonly double storona;
         readonly int ugol;
