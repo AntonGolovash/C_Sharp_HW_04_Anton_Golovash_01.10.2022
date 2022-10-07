@@ -14,12 +14,12 @@ namespace ClassLibrary_HW_04
         }
         public override double PerimetrFigury()
         {
-            throw new NotImplementedException();
+            return 22.33;
         }
 
         public override double PloshadFigury()
         {
-            throw new NotImplementedException();
+            return 22.33;
         }
     }
 }

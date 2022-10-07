@@ -8,12 +8,12 @@ namespace ClassLibrary_HW_04
 {
     public static class SostvnayaFigura
     {
-        static double PloshadSostavnoyFigury(GeometricheskayaFigura[] figuras)
+        public static double PloshadSostavnoyFigury(List<GeometricheskayaFigura> figuras)
         {
             double ploshad = 0;
-            for (int i = 0; i < figuras.Length; i++)
+            foreach (var item in figuras)
             {
-                ploshad += figuras[i].PloshadFigury();
+                ploshad += item.PloshadFigury();
             }
             return ploshad;
         }
